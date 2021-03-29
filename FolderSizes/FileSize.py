@@ -8,7 +8,6 @@ driveLetter = input('Enter drive letter: ')
 driveName = driveLetter + ':/'
 
 # Building a class to handle directories
-# Class will use the above functions to find directories
 # Might be a good idea to determine a root folder
 class DirectoryManager:
     def __init__(self, dir, drive):
