@@ -16,6 +16,8 @@ class Player:
         else:
             return False
 
+
+# Bot class randomly picks Rock Paper or Scissors represented by R, P, and S
 class Bot(Player):
     def __init__(self):
         self.name = 'Bot'
