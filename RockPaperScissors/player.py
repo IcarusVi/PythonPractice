@@ -25,6 +25,7 @@ class Bot(Player):
     totalMoves = ['R', 'P', 'S']
 
     # Function to pick a random letter from the total moves list;
+    # could've used random.choice as well
     def chooseHand(self):
         hand = self.totalMoves[random.randint(0,2)]
         return hand
